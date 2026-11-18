@@ -1,0 +1,16 @@
+airbnb:
+  outputs:
+    dev:
+      type: snowflake
+      account: mnkhzwj-so17013
+      user: dbt
+
+      role: TRANSFORM
+      private_key: "-----BEGIN ENCRYPTED PRIVATE KEY-----\nMIIFJTBfBgkqhkiG9w0BBQ0wUjAxBgkqhkiG9w0BBQwwJAQQX17BW6foUzymmZlD\nkfgzqgICCAAwDAYIKoZIhvcNAgkFADAdBglghkgBZQMEASoEEEgFoJ46/8QsfMVA\n8ZL65r4EggTAiM3yDagVbAnkb2zRnz9ZA3IUDjf+zOnsOjjYw9wnsDKeycqwc9Dx\nBXK014Ct2n8LDtFurzSib4CCXLmVmyaVG8XMQnWTE1YZtsHSPX3Sq92FKO+XlT8M\n9cRz8DAQ/NDfj08ZOr5SxvzbGatquIis8zfPqdEi/RuCj6NMWwRcpZ3gWXKuAT49\nTjo/QCX0Kanp9WE1DWJ5s5CziKug6Ej6EcsdaNzuUFYMrB7R8hM9+cm+M65/VeeJ\nbXFiAbAqNGgtBA4rCl1vlEsv2IA201NqjggpNAat1VaFjh+WgDzxJTLINqnH6usj\nkeaGUxXXaOkI+WI1Dzk0Ak86C7cIA9cPl+1TGBd13m1R3c/p5V60jCNFPX1EPBto\nDwOcOSePuVH7APh4r/AHZD8w3g9chU2/DvOgzq6XTWHwOqbjcTs7l6HmzalhicXa\nsX6TroXOFXdgFk2iCC71nGVpi9yV2NOh+KZWccdGA2QUdDwXs7We1jEjHYed/Sh0\naHw1d7EkepKoCF/6TMBGXyl2xeVXB2mOqndZ7ZbWcVjbg3ONyXY6Abl6LjWoYh0c\nusFjF+A3Yld04KLn2yZuvB3yCvhn7ifWhnV7eSlmoEoQREa7bVCGmXazNfYaVC98\nZ3yd67rx/L8j6INUr+ggn3NQNAImv33xcXvPwR5M7UB4Y2zrH6Zc1CL04Dl6oLGe\nGhcoAUMsLfYjGdfofh880fQkx1erwiOfAiBuQBMEwSVPJ3BhRKu2OgBVeIA5zkCZ\nuo/FfOw9qn5A7Pz+nyTH+9s53VHMC7jl2/hDxGmWt3dcRQSeassfr8qrZzQFIBOa\nR2pNDS9U+RWEvNSLGTuAHetUtlsSDzAh74Rpoq5flpqlgqGi4212Jm+nQepT8O0v\nnarOMvPO5KTSpJeLFrLndIq0+xA4lNPCN7UXUFpyvWgl26SIAjv/X8ALvvJl7K2p\nzR4Xvm9tlYj5RdKWzmgAleq93KAKjGipcUHrLjsfbhcSPs+l7LLEyiNwiQZONV6Y\nJkwQh5n0kEZBBSk4AKdmqFe267OGziaqvNhHZY4yxF5sVU1GZWc53IovCWBufnY0\n4FSo/PTAL+2I1UzN5+8W7lMKTDm4ehK+tcefnawnF5q9V/S7864iwaq0ed+TJLtV\nWjMRboftoki0s7TLjhsQWz+O3yhbETVw41500k/xcgW2ojhYyi6Sj0zdl1kE9phK\nJElUrnxB5t8G0T+Xs8tkru8vafeZAHcv+tXvPfuN7jHkPmQZUqmsE8l16hMt0zFH\nRSs2Z9w2/Uvr52GcH/CxZ1sBcmOKysZw71DaL+lZHJ8xNG1u4ZDqRPOCyRNNqxBl\nzcUNKaIASKH3rYjmTuLcq9ZNMLyo7C5TC+sKvoyDa1jIkyRHdfS50WIKvjunRLzu\n4sfh8je6PrIxODC9IHJuQAVbK9IB8dh0mVE0SuS4CSJXIiehaGrC3YJy25Hndbsb\nXQ4nE9e+g4bc/YsySCboxCnCtoxXMIlYczJQpKatGbTOOpO0oR3TggPECdAzgdqm\noacA4BEPzMb9eFqfpycb3R/0R5ZSPlD5AM1hHG+C9X0SArmbPOw1u4SrNJDuyvqQ\nTLA4Ti/jFtD/K668QorvQbemM7qfEmoCrg==\n-----END ENCRYPTED PRIVATE KEY-----\n"
+      private_key_passphrase: q
+
+      database: AIRBNB
+      schema: DEV
+      threads: 1
+      warehouse: COMPUTE_WH
+  target: dev
